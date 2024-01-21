@@ -122,9 +122,9 @@ const Home = () => {
           <Box display={{ md: 'flex' }}>
             <Box flexGrow={1}>
               <Heading as="h2" variant="page-title">
-                Chinh nè
+                Nguyen Thanh Long
               </Heading>
-              <p>Tôi là ( Designer )</p>
+              <p>Tôi là ( Developer )</p>
             </Box>
             <Box
               flexShrink={0}
@@ -241,8 +241,8 @@ const Home = () => {
                         decoding="async"
                         data-nimg={1}
                         style={{ color: "transparent" }}
-                        srcSet="https://img.icons8.com/clouds/100/tiktok.png?fbclid=IwAR3E9Q_-kkXC-ITOc_9Uz3XGt91xBvfjVQRy33Sge-WH-9ZbTy74nmiiUU4"
-                        src="https://img.icons8.com/clouds/100/tiktok.png?fbclid=IwAR3E9Q_-kkXC-ITOc_9Uz3XGt91xBvfjVQRy33Sge-WH-9ZbTy74nmiiUU4"
+                        srcSet="https://img.icons8.com/3d-fluency/94/telegram.png?fbclid=IwAR3E9Q_-kkXC-ITOc_9Uz3XGt91xBvfjVQRy33Sge-WH-9ZbTy74nmiiUU4"
+                        src="https://img.icons8.com/3d-fluency/94/telegram.png?fbclid=IwAR3E9Q_-kkXC-ITOc_9Uz3XGt91xBvfjVQRy33Sge-WH-9ZbTy74nmiiUU4"
                       />
 
                     </span>
@@ -268,12 +268,12 @@ const Home = () => {
                         decoding="async"
                         data-nimg={1}
                         style={{ color: "transparent" }}
-                        srcSet="https://img.icons8.com/3d-fluency/94/facebook-circled.png?fbclid=IwAR3E9Q_-kkXC-ITOc_9Uz3XGt91xBvfjVQRy33Sge-WH-9ZbTy74nmiiUU4"
-                        src="https://img.icons8.com/3d-fluency/94/facebook-circled.png?fbclid=IwAR3E9Q_-kkXC-ITOc_9Uz3XGt91xBvfjVQRy33Sge-WH-9ZbTy74nmiiUU4"
+                        srcSet="https://img.icons8.com/3d-fluency/88/facebook-circled.png?fbclid=IwAR3E9Q_-kkXC-ITOc_9Uz3XGt91xBvfjVQRy33Sge-WH-9ZbTy74nmiiUU4"
+                        src="https://img.icons8.com/3d-fluency/88/facebook-circled.png?fbclid=IwAR3E9Q_-kkXC-ITOc_9Uz3XGt91xBvfjVQRy33Sge-WH-9ZbTy74nmiiUU4"
                       />
 
                     </span>
-                    FaceBook
+                    Facebook
                   </Button>
                 </Link>
               </ListItem>
@@ -295,8 +295,8 @@ const Home = () => {
                         decoding="async"
                         data-nimg={1}
                         style={{ color: "transparent" }}
-                        srcSet="https://img.icons8.com/3d-fluency/188/instagram-new.png?fbclid=IwAR3E9Q_-kkXC-ITOc_9Uz3XGt91xBvfjVQRy33Sge-WH-9ZbTy74nmiiUU4"
-                        src="https://img.icons8.com/3d-fluency/188/instagram-new.png?fbclid=IwAR3E9Q_-kkXC-ITOc_9Uz3XGt91xBvfjVQRy33Sge-WH-9ZbTy74nmiiUU4"
+                        srcSet="https://img.icons8.com/3d-fluency/94/instagram-new.png?fbclid=IwAR3E9Q_-kkXC-ITOc_9Uz3XGt91xBvfjVQRy33Sge-WH-9ZbTy74nmiiUU4"
+                        src="https://img.icons8.com/3d-fluency/94/instagram-new.png?fbclid=IwAR3E9Q_-kkXC-ITOc_9Uz3XGt91xBvfjVQRy33Sge-WH-9ZbTy74nmiiUU4"
                       />
 
                     </span>
