@@ -70,11 +70,11 @@ const Home = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const toast = useToast()
   const handleClick = () => {
-    const phoneNumber = '0111166666689';
+    const phoneNumber = '44557899992007';
     navigator.clipboard.writeText(phoneNumber);
     toast({
       title: 'Đã copy',
-      description: "0111166666689",
+      description: "44557899992007",
       status: 'success',
       duration: 1000,
       isClosable: true,
@@ -116,7 +116,7 @@ const Home = () => {
             bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
             css={{ backdropFilter: 'blur(10px)' }}
           >
-            Konichiwa, I&apos;m Chinh nè
+            Hey, I&apos;m Nguyen Thanh Long
           </Box>
 
           <Box display={{ md: 'flex' }}>
@@ -251,7 +251,7 @@ const Home = () => {
                 </Link>
               </ListItem>
               <ListItem>
-                <Link href="https://www.facebook.com/trinhnguyen113" target="_blank">
+                <Link href="https://www.facebook.com/profile.php?id=761240164&mibextid=LQQJ4d" target="_blank">
                   <Button
                     variant="ghost"
                     colorScheme="teal"
@@ -268,8 +268,8 @@ const Home = () => {
                         decoding="async"
                         data-nimg={1}
                         style={{ color: "transparent" }}
-                        srcSet="https://img.icons8.com/clouds/100/facebook.png?fbclid=IwAR3E9Q_-kkXC-ITOc_9Uz3XGt91xBvfjVQRy33Sge-WH-9ZbTy74nmiiUU4"
-                        src="https://img.icons8.com/clouds/100/facebook.png?fbclid=IwAR3E9Q_-kkXC-ITOc_9Uz3XGt91xBvfjVQRy33Sge-WH-9ZbTy74nmiiUU4"
+                        srcSet="https://img.icons8.com/3d-fluency/94/facebook-circled.png?fbclid=IwAR3E9Q_-kkXC-ITOc_9Uz3XGt91xBvfjVQRy33Sge-WH-9ZbTy74nmiiUU4"
+                        src="https://img.icons8.com/3d-fluency/94/facebook-circled.png?fbclid=IwAR3E9Q_-kkXC-ITOc_9Uz3XGt91xBvfjVQRy33Sge-WH-9ZbTy74nmiiUU4"
                       />
 
                     </span>
@@ -278,7 +278,7 @@ const Home = () => {
                 </Link>
               </ListItem>
               <ListItem>
-                <Link href="https://www.instagram.com/ntl.chinn_an" target="_blank">
+                <Link href="https://www.instagram.com/29th3.longgg?igsh=MWRjaHE5YzJ2a2ozZA==" target="_blank">
                   <Button
                     variant="ghost"
                     colorScheme="teal"
@@ -295,8 +295,8 @@ const Home = () => {
                         decoding="async"
                         data-nimg={1}
                         style={{ color: "transparent" }}
-                        srcSet="https://img.icons8.com/clouds/100/instagram.png?fbclid=IwAR3E9Q_-kkXC-ITOc_9Uz3XGt91xBvfjVQRy33Sge-WH-9ZbTy74nmiiUU4"
-                        src="https://img.icons8.com/clouds/100/instagram.png?fbclid=IwAR3E9Q_-kkXC-ITOc_9Uz3XGt91xBvfjVQRy33Sge-WH-9ZbTy74nmiiUU4"
+                        srcSet="https://img.icons8.com/3d-fluency/188/instagram-new.png?fbclid=IwAR3E9Q_-kkXC-ITOc_9Uz3XGt91xBvfjVQRy33Sge-WH-9ZbTy74nmiiUU4"
+                        src="https://img.icons8.com/3d-fluency/188/instagram-new.png?fbclid=IwAR3E9Q_-kkXC-ITOc_9Uz3XGt91xBvfjVQRy33Sge-WH-9ZbTy74nmiiUU4"
                       />
 
                     </span>
@@ -311,7 +311,7 @@ const Home = () => {
                 as={NextLink}
 
                 href="
-                mailto:trinhnguyen0489@gmail.com "
+                mailto:nthanhlongcute@gmail.com "
                 scroll={false}
                 leftIcon={<EmailIcon />}
                 colorScheme="teal"
