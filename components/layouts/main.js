@@ -15,21 +15,21 @@ const Main = ({ children, router }) => {
     <Box as="main" pb={8}>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content="Chinh nè" />
-        <meta name="author" content="Chinh nè" />
-        <meta name="author" content="craftzdog" />
-        <link rel="apple-touch-icon" href="/public/profile5.jpg" />
+        <meta name="description" content="Nguyễn Thành Long" />
+        <meta name="author" content="Nguyễn Thành Long" />
+        <meta name="author" content="nguyenthanhlong" />
+        <link rel="apple-touch-icon" href="/public/IMG_8653.jpeg" />
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-        <meta name="twitter:title" content="Chinh nè" />
+        <meta name="twitter:title" content="Nguyễn Thành Long" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@craftzdog" />
-        <meta name="twitter:creator" content="@craftzdog" />
+        <meta name="twitter:site" content="" />
+        <meta name="twitter:creator" content="" />
 
-        <meta property="og:site_name" content="Chinh nè" />
-        <meta name="og:title" content="Chinh nè" />
+        <meta property="og:site_name" content="Nguyen Thanh Long" />
+        <meta name="og:title" content="Nguyen Thanh Long | Profile" />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content="/public/profile5.jpg" />
-        <title>Chinh nè</title>
+        <meta property="og:image" content="/public/IMG_8653.jpeg" />
+        <title>Nguyen Thanh Long | Profile</title>
       </Head>
 
       <NavBar path={router.asPath} />
