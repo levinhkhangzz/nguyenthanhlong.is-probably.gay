@@ -241,12 +241,12 @@ const Home = () => {
                         decoding="async"
                         data-nimg={1}
                         style={{ color: "transparent" }}
-                        srcSet="https://img.icons8.com/3d-fluency/94/telegram.png?fbclid=IwAR3E9Q_-kkXC-ITOc_9Uz3XGt91xBvfjVQRy33Sge-WH-9ZbTy74nmiiUU4"
-                        src="https://img.icons8.com/3d-fluency/94/telegram.png?fbclid=IwAR3E9Q_-kkXC-ITOc_9Uz3XGt91xBvfjVQRy33Sge-WH-9ZbTy74nmiiUU4"
+                        srcSet="https://img.icons8.com/3d-fluency/80/telegram.png?fbclid=IwAR3E9Q_-kkXC-ITOc_9Uz3XGt91xBvfjVQRy33Sge-WH-9ZbTy74nmiiUU4"
+                        src="https://img.icons8.com/3d-fluency/80/telegram.png?fbclid=IwAR3E9Q_-kkXC-ITOc_9Uz3XGt91xBvfjVQRy33Sge-WH-9ZbTy74nmiiUU4"
                       />
 
                     </span>
-                    Tiktok
+                    Telegram
                   </Button>
                 </Link>
               </ListItem>
@@ -268,8 +268,8 @@ const Home = () => {
                         decoding="async"
                         data-nimg={1}
                         style={{ color: "transparent" }}
-                        srcSet="https://img.icons8.com/3d-fluency/88/facebook-circled.png?fbclid=IwAR3E9Q_-kkXC-ITOc_9Uz3XGt91xBvfjVQRy33Sge-WH-9ZbTy74nmiiUU4"
-                        src="https://img.icons8.com/3d-fluency/88/facebook-circled.png?fbclid=IwAR3E9Q_-kkXC-ITOc_9Uz3XGt91xBvfjVQRy33Sge-WH-9ZbTy74nmiiUU4"
+                        srcSet="https://img.icons8.com/3d-fluency/80/facebook-circled.png?fbclid=IwAR3E9Q_-kkXC-ITOc_9Uz3XGt91xBvfjVQRy33Sge-WH-9ZbTy74nmiiUU4"
+                        src="https://img.icons8.com/3d-fluency/80/facebook-circled.png?fbclid=IwAR3E9Q_-kkXC-ITOc_9Uz3XGt91xBvfjVQRy33Sge-WH-9ZbTy74nmiiUU4"
                       />
 
                     </span>
@@ -295,8 +295,8 @@ const Home = () => {
                         decoding="async"
                         data-nimg={1}
                         style={{ color: "transparent" }}
-                        srcSet="https://img.icons8.com/3d-fluency/94/instagram-new.png?fbclid=IwAR3E9Q_-kkXC-ITOc_9Uz3XGt91xBvfjVQRy33Sge-WH-9ZbTy74nmiiUU4"
-                        src="https://img.icons8.com/3d-fluency/94/instagram-new.png?fbclid=IwAR3E9Q_-kkXC-ITOc_9Uz3XGt91xBvfjVQRy33Sge-WH-9ZbTy74nmiiUU4"
+                        srcSet="https://img.icons8.com/3d-fluency/80/instagram-new.png?fbclid=IwAR3E9Q_-kkXC-ITOc_9Uz3XGt91xBvfjVQRy33Sge-WH-9ZbTy74nmiiUU4"
+                        src="https://img.icons8.com/3d-fluency/80/instagram-new.png?fbclid=IwAR3E9Q_-kkXC-ITOc_9Uz3XGt91xBvfjVQRy33Sge-WH-9ZbTy74nmiiUU4"
                       />
 
                     </span>
