@@ -98,8 +98,8 @@ const Home = () => {
                 height={300}
                 decoding="async"
                 data-nimg={1}
-                srcSet="/qr.jpg"
-                src="/qr.jpg"
+                srcSet="/IMG_8654.jpeg"
+                src="/IMG_8654.jpeg"
                 style={{ color: "transparent", objectFit: "cover", borderRadius: 10 }}
               />
 
