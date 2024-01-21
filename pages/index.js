@@ -1,4 +1,4 @@
-import NextLink from 'next/link';
+import NextLink from 'next/link'
 import {
   Link,
   Container,
@@ -9,16 +9,23 @@ import {
   ListItem,
   useColorModeValue,
   Modal,
+
   ModalContent,
   ModalCloseButton,
   ModalBody,
+
   ModalOverlay,
+
   useDisclosure,
-  useToast,
-} from '@chakra-ui/react';
-import { EmailIcon } from '@chakra-ui/icons';
-import Layout from '../components/layouts/article';
-import Section from '../components/section';
+  useToast
+
+
+} from '@chakra-ui/react'
+import { EmailIcon } from '@chakra-ui/icons'
+import Layout from '../components/layouts/article'
+import Section from '../components/section'
+
+
 import { useState } from 'react';
 
 const FullScreenImage = ({ src, alt }) => {
@@ -26,12 +33,12 @@ const FullScreenImage = ({ src, alt }) => {
 
   const openFullScreen = () => {
     setShowFullScreen(true);
-    document.body.style.overflow = 'hidden';
+    document.body.style.overflow = 'hidden'; // Ngăn cuộn trang khi hiển thị ảnh toàn màn hình
   };
 
   const closeFullScreen = () => {
     setShowFullScreen(false);
-    document.body.style.overflow = '';
+    document.body.style.overflow = ''; // Cho phép cuộn trang lại sau khi đóng ảnh toàn màn hình
   };
 
   if (showFullScreen) {
@@ -57,25 +64,28 @@ const FullScreenImage = ({ src, alt }) => {
   );
 };
 
+
+
 const Home = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
-  const toast = useToast();
-
+  const toast = useToast()
   const handleClick = () => {
     const phoneNumber = '44557899992007';
     navigator.clipboard.writeText(phoneNumber);
     toast({
       title: 'Đã copy',
-      description: '44557899992007',
+      description: "44557899992007",
       status: 'success',
       duration: 1000,
       isClosable: true,
-    });
+    })
   };
 
   return (
     <>
       <Layout>
+
+
         <Modal isOpen={isOpen} onClose={onClose}>
           <ModalOverlay />
           <ModalContent>
@@ -90,13 +100,11 @@ const Home = () => {
                 data-nimg={1}
                 srcSet="/qr.jpg"
                 src="/qr.jpg"
-                style={{
-                  color: 'transparent',
-                  objectFit: 'cover',
-                  borderRadius: 10,
-                }}
+                style={{ color: "transparent", objectFit: "cover", borderRadius: 10 }}
               />
+
             </ModalBody>
+
           </ModalContent>
         </Modal>
         <Container>
@@ -134,7 +142,9 @@ const Home = () => {
                 borderRadius="full"
                 overflow="hidden"
               >
-                <FullScreenImage src={"/IMG_8653.jpeg"} alt="Profile image" />
+                <FullScreenImage
+                  src={"/IMG_8653.jpeg"} alt="Profile image"
+                />
               </Box>
             </Box>
           </Box>
@@ -144,6 +154,7 @@ const Home = () => {
               Kênh Donate
             </Heading>
             <List style={{ display: 'flex' }}>
+
               <ListItem>
                 <Link target="_blank">
                   <Button
@@ -161,11 +172,13 @@ const Home = () => {
                         height={20}
                         decoding="async"
                         data-nimg={1}
-                        style={{ color: "transparent", marginRight: "10px" }}
+                        style={{ color: "transparent" }}
                         srcSet="https://cdn.haitrieu.com/wp-content/uploads/2022/02/Icon-MB-Bank-MBB.png"
                         src="https://cdn.haitrieu.com/wp-content/uploads/2022/02/Icon-MB-Bank-MBB.png"
                       />
+
                     </span>
+
                     QR MBBANK
                   </Button>
                 </Link>
@@ -188,7 +201,7 @@ const Home = () => {
                         height={20}
                         decoding="async"
                         data-nimg={1}
-                        style={{ color: "transparent", marginRight: "10px" }}
+                        style={{ color: "transparent" }}
                         srcSet="https://donate.phatsaygame.live/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fpasscode.b53cb137.png&w=32&q=75"
                         src="https://donate.phatsaygame.live/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fpasscode.b53cb137.png&w=32&q=75"
                       />
@@ -198,7 +211,12 @@ const Home = () => {
                 </Link>
               </ListItem>
             </List>
+
           </Section>
+
+
+
+
 
           <Section delay={0.3}>
             <Heading as="h3" variant="section-title">
@@ -210,6 +228,7 @@ const Home = () => {
                   <Button
                     variant="ghost"
                     colorScheme="teal"
+
                   >
                     <span className="chakra-button__icon css-1wh2kri">
                       <img
@@ -217,14 +236,15 @@ const Home = () => {
                         aria-hidden="true"
                         focusable="false"
                         loading="lazy"
-                        width={50}
-                        height={50}
+                        width={35}
+                        height={35}
                         decoding="async"
                         data-nimg={1}
-                        style={{ color: "transparent", marginRight: "10px" }}
-                        srcSet="https://img.icons8.com/3d-fluency/40/telegram.png?fbclid=IwAR3E9Q_-kkXC-ITOc_9Uz3XGt91xBvfjVQRy33Sge-WH-9ZbTy74nmiiUU4"
-                        src="https://img.icons8.com/3d-fluency/40/telegram.png?fbclid=IwAR3E9Q_-kkXC-ITOc_9Uz3XGt91xBvfjVQRy33Sge-WH-9ZbTy74nmiiUU4"
+                        style={{ color: "transparent" }}
+                        srcSet="https://img.icons8.com/3d-fluency/100/telegram.png?fbclid=IwAR3E9Q_-kkXC-ITOc_9Uz3XGt91xBvfjVQRy33Sge-WH-9ZbTy74nmiiUU4"
+                        src="https://img.icons8.com/3d-fluency/100/telegram.png?fbclid=IwAR3E9Q_-kkXC-ITOc_9Uz3XGt91xBvfjVQRy33Sge-WH-9ZbTy74nmiiUU4"
                       />
+
                     </span>
                     Telegram
                   </Button>
@@ -235,6 +255,7 @@ const Home = () => {
                   <Button
                     variant="ghost"
                     colorScheme="teal"
+
                   >
                     <span className="chakra-button__icon css-1wh2kri">
                       <img
@@ -242,14 +263,15 @@ const Home = () => {
                         aria-hidden="true"
                         focusable="false"
                         loading="lazy"
-                        width={50}
-                        height={50}
+                        width={35}
+                        height={35}
                         decoding="async"
                         data-nimg={1}
-                        style={{ color: "transparent", marginRight: "10px" }}
-                        srcSet="https://img.icons8.com/3d-fluency/40/facebook-circled.png?fbclid=IwAR3E9Q_-kkXC-ITOc_9Uz3XGt91xBvfjVQRy33Sge-WH-9ZbTy74nmiiUU4"
-                        src="https://img.icons8.com/3d-fluency/40/facebook-circled.png?fbclid=IwAR3E9Q_-kkXC-ITOc_9Uz3XGt91xBvfjVQRy33Sge-WH-9ZbTy74nmiiUU4"
+                        style={{ color: "transparent" }}
+                        srcSet="https://img.icons8.com/3d-fluency/100/facebook-circled.png?fbclid=IwAR3E9Q_-kkXC-ITOc_9Uz3XGt91xBvfjVQRy33Sge-WH-9ZbTy74nmiiUU4"
+                        src="https://img.icons8.com/3d-fluency/100/facebook-circled.png?fbclid=IwAR3E9Q_-kkXC-ITOc_9Uz3XGt91xBvfjVQRy33Sge-WH-9ZbTy74nmiiUU4"
                       />
+
                     </span>
                     Facebook
                   </Button>
@@ -260,6 +282,7 @@ const Home = () => {
                   <Button
                     variant="ghost"
                     colorScheme="teal"
+
                   >
                     <span className="chakra-button__icon css-1wh2kri">
                       <img
@@ -267,24 +290,28 @@ const Home = () => {
                         aria-hidden="true"
                         focusable="false"
                         loading="lazy"
-                        width={50}
-                        height={50}
+                        width={35}
+                        height={35}
                         decoding="async"
                         data-nimg={1}
-                        style={{ color: "transparent", marginRight: "10px" }}
-                        srcSet="https://img.icons8.com/3d-fluency/40/instagram-new.png?fbclid=IwAR3E9Q_-kkXC-ITOc_9Uz3XGt91xBvfjVQRy33Sge-WH-9ZbTy74nmiiUU4"
-                        src="https://img.icons8.com/3d-fluency/40/instagram-new.png?fbclid=IwAR3E9Q_-kkXC-ITOc_9Uz3XGt91xBvfjVQRy33Sge-WH-9ZbTy74nmiiUU4"
+                        style={{ color: "transparent" }}
+                        srcSet="https://img.icons8.com/3d-fluency/100/instagram-new.png?fbclid=IwAR3E9Q_-kkXC-ITOc_9Uz3XGt91xBvfjVQRy33Sge-WH-9ZbTy74nmiiUU4"
+                        src="https://img.icons8.com/3d-fluency/100/instagram-new.png?fbclid=IwAR3E9Q_-kkXC-ITOc_9Uz3XGt91xBvfjVQRy33Sge-WH-9ZbTy74nmiiUU4"
                       />
+
                     </span>
                     Instagram
                   </Button>
                 </Link>
               </ListItem>
+
             </List>
             <Box align="center" my={4}>
               <Button
                 as={NextLink}
-                href="mailto:nthanhlongcute@gmail.com"
+
+                href="
+                mailto:nthanhlongcute@gmail.com "
                 scroll={false}
                 leftIcon={<EmailIcon />}
                 colorScheme="teal"
@@ -293,11 +320,14 @@ const Home = () => {
               </Button>
             </Box>
           </Section>
+
         </Container>
       </Layout>
     </>
-  );
-};
+  )
 
-export default Home;
-export { getServerSideProps } from '../components/chakra';
+
+}
+
+export default Home
+export { getServerSideProps } from '../components/chakra'
