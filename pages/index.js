@@ -143,7 +143,7 @@ const Home = () => {
                 overflow="hidden"
               >
                 <FullScreenImage
-                  src={"/profile5.jpg"} alt="Profile image"
+                  src={"/IMG_8653.jpeg"} alt="Profile image"
                 />
               </Box>
             </Box>
