@@ -33,7 +33,7 @@ const Logo = () => {
           fontWeight="bold"
           ml={3}
         >
-          Chinh nè
+          Nguyen Thanh Long
         </Text>
       </LogoBox>
 
